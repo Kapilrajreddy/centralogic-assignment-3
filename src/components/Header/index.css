@@ -1,0 +1,36 @@
+.header-main-container{
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+.header-sub-container{
+    width:60%;
+    background-image: url("https://img.freepik.com/free-vector/gradient-cryptocurrency-concept_23-2149215736.jpg");
+    background-size: cover;
+    background-position: 100% 40%;
+    padding:20px;
+    border-radius:10px;
+} 
+.header-main-heading{
+    font-size:24px;
+    font-weight:600;
+    color:#fff;
+    margin:0px 0px 10px 0px;
+    
+}
+.header-sub-heading{
+    font-size:18px;
+    font-weight:500;
+    color:#fff;
+    margin:0px;
+}
+@media (max-width:912px){
+    .header-sub-container{
+    width:80%;
+    }
+}
+@media(max-width:768px){
+     .header-sub-container{
+    width:90%;
+    }
+}
